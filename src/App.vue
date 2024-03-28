@@ -1,20 +1,7 @@
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import MonacoVue from './components/Monaco.vue';
-</script>
+<script setup></script>
 
 <template>
-  <div class="menu">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <div class="content-right">
-     <MonacoVue />
-  </div>
+  <router-view />
 </template>
 
 <style scoped>

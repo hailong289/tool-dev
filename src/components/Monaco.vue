@@ -22,7 +22,7 @@ export default defineComponent({
       editor = monaco.editor.create(root.value, {
         language: 'typescript',
         value: `console.log("hello world"); `,
-        theme: 'vs-dark',
+        theme: 'vs-light',
       })
     })
     onUnmounted(() => {
@@ -42,6 +42,6 @@ export default defineComponent({
 <style scoped>
 #root {
   width: 100%;
-  height: 100vh;
+  height: 95%;
 }
 </style>
