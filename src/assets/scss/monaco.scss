@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    color: black;
+  }
+  .content-editor {
+    flex: 1 1 0%;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    .root-editor-write {
+      width: 50%;
+      height: calc(-116px + 100vh);
+    }
+    .root-editor-preview {
+      width: 50%;
+      height: calc(-116px + 100vh);
+    }
+    .root-editor-diff {
+      width: 100%;
+      height: calc(-116px + 100vh);
+    }
+  }
+}
