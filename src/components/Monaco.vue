@@ -70,14 +70,6 @@ export default defineComponent({
         </div>
     </div>
 </template>
-<<<<<<< HEAD
 <style lang="scss" scoped>
 @import "../assets/scss/monaco.scss";
-=======
-<style scoped>
-#root {
-  width: 100%;
-  height: 95%;
-}
->>>>>>> 5a0ddde56b2d07b5b6b1bc39c7b11c7a07a2f14e
 </style>
