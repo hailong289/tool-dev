@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <script setup>
 </script>
 
